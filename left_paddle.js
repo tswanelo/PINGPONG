@@ -1,8 +1,13 @@
-// Left paddle object
-const leftbar = {
-    x: grid * 3, // Start in the middle of the game on the left side
-    y: canvas.height / 2 - barHeight / 2,
-    width: grid,
-    height: barHeight,
-    dy: 0 // Paddle velocity
-  };
+const leftPaddle = {
+  // start in the middle of the game on the left side
+  x: grid * 2,
+  y: canvas.height / 2 - paddleHeight / 2,
+  width: grid,
+  height: paddleHeight,
+
+  // paddle velocity
+  dy: 0,
+
+  // score
+  score: 0
+};

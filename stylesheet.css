@@ -2,11 +2,10 @@ html, body {
     height: 100%;
     margin: 0;
   }
-  
+
   body {
-    background: rgb(92, 105, 180);
+    background: blueviolet;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
